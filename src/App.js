@@ -32,4 +32,4 @@ function App() {
     );
 }
 
-export default AppendMode;
+export default App;
