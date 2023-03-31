@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "react-scripts test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bryanjeremysmith/react-portfolio.git"
