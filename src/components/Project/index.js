@@ -15,7 +15,7 @@ function Project(props) {
 		<Card style={{ width: "18rem" }}>
 			<Card.Img
 				variant="top"
-				src={require({imgSrc})}
+				src={imgSrc}
 				className="card-image"
 			/>
 			<div className="center">

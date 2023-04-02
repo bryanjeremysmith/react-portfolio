@@ -52,6 +52,26 @@ function Portfolio() {
                         <Project projects={projects[0]}></Project>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <Project projects={projects[1]}></Project>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <Project projects={projects[2]}></Project>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <Project projects={projects[3]}></Project>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <Project projects={projects[4]}></Project>
+                    </div>
+                </div>
             </div>
         </section>
     );
