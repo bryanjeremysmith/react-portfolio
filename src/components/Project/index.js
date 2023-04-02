@@ -20,7 +20,7 @@ function Project(props) {
 			/>
 			<div className="center">
 				<Card.Body>
-					<Card.Name className="card-name">{name}</Card.Name>
+					<Card.Title className="card-name">{name}</Card.Title>
 					<Card.Text className="card-description">{description}</Card.Text>
 					<Card.Link href={link} target="_blank" className="card-link">
 						{name} App
