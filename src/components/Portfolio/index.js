@@ -6,31 +6,31 @@ function Portfolio() {
 		{
 			name: 'Boundless Bites',
             description: 'a website to help research food',
-            repo: "https://bryanjeremysmith.github.io/BoundlessBites/",
+            repo: "https://github.com/bryanjeremysmith/BoundlessBites",
 			image: 'boundlessbites.png',
 		},
 		{
             name: 'Password Generator',
             description: 'a password generator',
-            repo: "https://bryanjeremysmith.github.io/Module3Challenge/",
+            repo: "https://github.com/bryanjeremysmith/Module3Challenge/",
             image: 'password-generator.png',
 		},
 		{
             name: 'Coding Quiz',
             description: 'a coding quiz',
-            repo: "https://bryanjeremysmith.github.io/Module4Challenge/",
+            repo: "https://github.com/bryanjeremysmith/Module4Challenge/",
             image: 'coding-quiz.gif',
         },
 		{
 			name: 'Work Day Scheduler',
             description: 'a work day scheduler',
-            repo: "https://bryanjeremysmith.github.io/Module5Challenge/",
+            repo: "https://github.com/bryanjeremysmith/Module5Challenge/",
             image: 'work-day-scheduler.gif',
 		},
 		{
 			name: 'Weather Dashboard',
             description: 'a weather dashboard',
-            repo: "https://bryanjeremysmith.github.io/weather-dashboard/",
+            repo: "https://github.com/bryanjeremysmith/weather-dashboard/",
             image: 'weather-dashboard.png',
 		},
 	];
