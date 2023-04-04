@@ -1,6 +1,8 @@
 {
   "name": "react-portfolio",
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://bryanjeremysmith.github.io/react-portfolio",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -12,7 +14,6 @@
   "bugs": {
     "url": "https://github.com/bryanjeremysmith/react-portfolio/issues"
   },
-  "homepage": "https://github.com/bryanjeremysmith/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
