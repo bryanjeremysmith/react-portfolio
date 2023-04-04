@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -14,16 +13,16 @@ function App() {
 		{name: "contact me"},
 		{name: "resume"}
 	]);
-
 	const [currentPage, setCurrentPage] = useState(pages[0]);
 
+	// This function checks to see which tab is selected and then generates the appropriate tab.
 	const choosePage = () => {
 		switch (currentPage) {
-			case "about me":
+			case "about":
 				return <About />;
 			case "portfolio":
 				return <Portfolio />;
-			case "contact me":
+			case "contact":
 				return <Contact />;
 			case "resume":
 				return <Resume />;
