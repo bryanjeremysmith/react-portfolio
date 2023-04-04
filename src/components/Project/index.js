@@ -8,7 +8,6 @@ function Project(props) {
 	const name = currentProject.name;
 	const description = currentProject.description;
 	const image = currentProject.image;
-	const link = currentProject.link;
 	const repo = currentProject.repo;
 
 	return (
@@ -17,17 +16,14 @@ function Project(props) {
 				variant="top"
 				src={require(`../../assets/images/${image}`)}
 				className="card-image"
+				href={repo}
 			/>
 			<div className="center">
 				<Card.Body>
 					<Card.Title className="card-title">{name}</Card.Title>
 					<Card.Text className="card-text">{description}</Card.Text>
-					<Card.Link href={link} target="_blank" className="card-link">
-						{name} Link
-					</Card.Link>
-					<br></br>
 					<Card.Link href={repo} target="_blank" className="card-link">
-						{name} Repo
+						{name}
 					</Card.Link>
 				</Card.Body>
 			</div>
