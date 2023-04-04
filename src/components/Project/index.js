@@ -7,26 +7,27 @@ function Project(props) {
 
 	const name = currentProject.name;
 	const description = currentProject.description;
+	const image = currentProject.image;
 	const link = currentProject.link;
 	const repo = currentProject.repo;
-	const imgSrc = currentProject.imgSrc;
 
 	return (
 		<Card style={{ width: "18rem" }}>
 			<Card.Img
 				variant="top"
-				src={imgSrc}
+				src={require(`../../assets/images/${image}`)}
 				className="card-image"
 			/>
 			<div className="center">
 				<Card.Body>
-					<Card.Title className="card-name">{name}</Card.Title>
-					<Card.Text className="card-description">{description}</Card.Text>
+					<Card.Title className="card-title">{name}</Card.Title>
+					<Card.Text className="card-text">{description}</Card.Text>
 					<Card.Link href={link} target="_blank" className="card-link">
-						{name} App
+						{name} Link
 					</Card.Link>
-					<Card.Link href={repo} target="_blank" className="card-repo">
-						{name} Github
+					<br></br>
+					<Card.Link href={repo} target="_blank" className="card-link">
+						{name} Repo
 					</Card.Link>
 				</Card.Body>
 			</div>
