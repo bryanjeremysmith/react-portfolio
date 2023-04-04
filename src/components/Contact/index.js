@@ -4,9 +4,6 @@ function Contact() {
 
 	return (
 		<section>
-			<div className="center">
-				<h2 className="page-header">Contact Me</h2>
-			</div>
 			<div>
 				<div>
 					<a href="tel:5558675309">Call me at 555-867-5309</a>
