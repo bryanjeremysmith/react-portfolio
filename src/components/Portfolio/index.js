@@ -1,80 +1,75 @@
-import React, {useState } from 'react';
-import Project from "../Project";
+import React from 'react';
+import Project from '../Project';
 
 function Portfolio() {
-    const [projects] = useState([
-        {
-            name: 'Boundless Bites',
+	const projects = [
+		{
+			name: 'Boundless Bites',
             description: 'a website to help research food',
-            link: "https://bryanjeremysmith.github.io/BoundlessBites/",
-            repo: "https://bryanjeremysmith.github.io/BoundlessBites/",
-            imgSrc: '../../assets/images/boundlessbites.png'
-        },
-        {
+            github: "https://bryanjeremysmith.github.io/BoundlessBites/",
+            deployed: "https://bryanjeremysmith.github.io/BoundlessBites/",
+			image: 'boundlessbites.png',
+		},
+		{
             name: 'Password Generator',
             description: 'a password generator',
-            link: "https://bryanjeremysmith.github.io/Module3Challenge/",
-            repo: "https://bryanjeremysmith.github.io/Module3Challenge/",
-            imgSrc: '../../assets/images/password-generator.png'
-        },
-        {
+            github: "https://bryanjeremysmith.github.io/Module3Challenge/",
+            deployed: "https://bryanjeremysmith.github.io/Module3Challenge/",
+            image: 'password-generator.png',
+		},
+		{
             name: 'Coding Quiz',
             description: 'a coding quiz',
-            link: "https://bryanjeremysmith.github.io/Module4Challenge/",
-            repo: "https://bryanjeremysmith.github.io/Module4Challenge/",
-            imgSrc: '../../assets/images/coding-quiz.gif'
+            github: "https://bryanjeremysmith.github.io/Module4Challenge/",
+            deployed: "https://bryanjeremysmith.github.io/Module4Challenge/",
+            image: 'coding-quiz.gif',
         },
-        {
-            name: 'Work Day Scheduler',
+		{
+			name: 'Work Day Scheduler',
             description: 'a work day scheduler',
-            link: "https://bryanjeremysmith.github.io/Module5Challenge/",
-            repo: "https://bryanjeremysmith.github.io/Module5Challenge/",
-            imgSrc: '../../assets/images/work-day-scheduler.gif'
-        },
-        {
-            name: 'Weather Dashboard',
+            github: "https://bryanjeremysmith.github.io/Module5Challenge/",
+            deployed: "https://bryanjeremysmith.github.io/Module5Challenge/",
+            image: 'work-day-scheduler.gif',
+		},
+		{
+			name: 'Weather Dashboard',
             description: 'a weather dashboard',
-            link: "https://bryanjeremysmith.github.io/weather-dashboard/",
-            repo: "https://bryanjeremysmith.github.io/weather-dashboard/",
-            imgSrc: '../../assets/images/weather-dashboard.png'
-        },
-    ])
+            github: "https://bryanjeremysmith.github.io/weather-dashboard/",
+            deployed: "https://bryanjeremysmith.github.io/weather-dashboard/",
+            image: 'weather-dashboard.png',
+		},
+	];
 
-    //TODOBJS: more projects
-    return (
-        <section id='work' class='mycard'>
-            <div class="card-conainer">
-                <header>Work</header>
-            </div>
-            <div class='container'>
-                <div class="row">
-                    <div class="col">
-                        <Project projects={projects[0]}></Project>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <Project projects={projects[1]}></Project>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <Project projects={projects[2]}></Project>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <Project projects={projects[3]}></Project>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <Project projects={projects[4]}></Project>
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+	return (
+		<section>
+			<div className="center">
+				<h1 className="page-header">My Portfolio</h1>
+			</div>
+			<div>
+				<ul className="flex-row">
+					<li className="padding">
+						<Project projects={projects[0]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[1]}></Project>
+					</li>
+				</ul>
+				<ul className="flex-row">
+					<li className="padding">
+						<Project projects={projects[2]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[3]}></Project>
+					</li>
+				</ul>
+				<ul className="flex-row">
+					<li className="padding">
+						<Project projects={projects[4]}></Project>
+					</li>
+				</ul>
+			</div>
+		</section>
+	);
 }
 
 export default Portfolio;
