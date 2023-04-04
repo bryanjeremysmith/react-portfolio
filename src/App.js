@@ -8,9 +8,9 @@ import Resume from "./components/Resume";
 
 function App() {
 	const [pages] = useState([
-		{name: "about me"},
+		{name: "about"},
 		{name: "portfolio"},
-		{name: "contact me"},
+		{name: "contact"},
 		{name: "resume"}
 	]);
 	const [currentPage, setCurrentPage] = useState(pages[0]);
