@@ -6,9 +6,14 @@ function Resume() {
 			<div className="center">
 				<h1 className="page-header">My Resume</h1>
 			</div>
-			<div className="bottom-spacing">
+			<div>
+				<a href="https://www.linkedin.com/in/bryanjeremysmith/">
+					LinkedIn Profile
+				</a>
+			</div>
+			<div>
 				<a href={require("../../assets/files/Resume.pdf")} download>
-					<h4>My Resume</h4>
+					PDF of my Resume
 				</a>
 			</div>
 		</section>
