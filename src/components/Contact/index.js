@@ -1,15 +1,20 @@
-// import React, { useState } from "react";
+import React from "react";
 
 function Contact() {
+
 	return (
-		<section id="contact-me" class="mycard">
-			<section class="card-container">
-					<header>Contact Me</header>
+		<section>
+			<div className="center">
+				<h2 className="page-header">Contact Me</h2>
+			</div>
+			<div>
+				<div>
 					<a href="tel:5558675309">Call me at 555-867-5309</a>
-					<a href="mailto:bryanjeremysmith@gmail.com?subject = Email about Portfolio&body = I found you through GitHub">Email me</a>
-					<a href="https://www.linkedin.com/in/bryanjeremysmith/">LinkedIn</a>
-					<a href="https://github.com/bryanjeremysmith">GitHub</a>
-			</section>
+				</div>
+				<div>
+					<a href="mailto:bryanjeremysmith@gmail.com?subject = Email from React Portfolio&body = I found you through React Portfolio">Email me</a>
+				</div>
+			</div>
 		</section>
 	);
 }
