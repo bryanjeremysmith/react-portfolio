@@ -42,27 +42,20 @@ function Portfolio() {
 
 	return (
 		<section>
-			<div className="center">
-				<h1 className="page-header">My Portfolio</h1>
-			</div>
 			<div>
-				<ul className="flex-row">
+				<ul className="card-container">
 					<li className="padding">
 						<Project projects={projects[0]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[1]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row">
 					<li className="padding">
 						<Project projects={projects[2]}></Project>
 					</li>
 					<li className="padding">
 						<Project projects={projects[3]}></Project>
 					</li>
-				</ul>
-				<ul className="flex-row">
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
 					</li>
