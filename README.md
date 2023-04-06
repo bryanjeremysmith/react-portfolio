@@ -25,11 +25,19 @@ run 'npm run build'
 
 run 'npm run start'
 
+To deploy to GitHub pages
+
+run 'npm run predeploy;
+
+run 'npm run deploy'
+
 ## Usage
 
 Go to the following link GitHub Pages.  You can press the install button at the top of the page to download the app for offline use.
 
 https://bryanjeremysmith.github.io/react-portfolio/
+
+![screencapture-bryanjeremysmith-github-io-react-portfolio-2023-04-06-10_27_09](https://user-images.githubusercontent.com/113069298/230452723-fc3c49e5-b9c6-4462-ae73-ed16ef1efc9e.png)
 
 ## License 
 
