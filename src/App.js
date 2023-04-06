@@ -31,16 +31,16 @@ function App() {
 		}
 	};
 
-	return (
+	return (		
 		<div>
 			<div>
-				<Header pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}></Header>
+				<Header pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage} />
 			</div>
 			<div>
 				<main>{choosePage()}</main>
 			</div>
 			<div>
-				<Footer></Footer>
+				<Footer />
 			</div>
 		</div>
 	);
