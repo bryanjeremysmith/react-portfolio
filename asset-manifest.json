@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bryanjeremysmith/react-portfolio/static/css/main.e490a261.css",
-    "main.js": "/bryanjeremysmith/react-portfolio/static/js/main.c05ad746.js",
-    "static/media/module1challenge.png": "/bryanjeremysmith/react-portfolio/static/media/module1challenge.55f3e49bb2dc886130db.png",
-    "static/media/work-day-scheduler.gif": "/bryanjeremysmith/react-portfolio/static/media/work-day-scheduler.5b3f62cdcc4cafa34102.gif",
-    "static/media/module2challenge.png": "/bryanjeremysmith/react-portfolio/static/media/module2challenge.b38adefcc2e77b4d541b.png",
-    "static/media/profile.png": "/bryanjeremysmith/react-portfolio/static/media/profile.ec21ad15109587f05cb2.png",
-    "static/media/coding-quiz.gif": "/bryanjeremysmith/react-portfolio/static/media/coding-quiz.f809ce631baf42e3f7af.gif",
-    "static/media/movies2watch.png": "/bryanjeremysmith/react-portfolio/static/media/movies2watch.6d9cbf380af10aefd290.png",
-    "static/media/boundlessbites.png": "/bryanjeremysmith/react-portfolio/static/media/boundlessbites.75c9f98f922864664fe6.png",
-    "static/media/weather-dashboard.png": "/bryanjeremysmith/react-portfolio/static/media/weather-dashboard.cf25a1c620cc608e6e78.png",
-    "static/media/password-generator.png": "/bryanjeremysmith/react-portfolio/static/media/password-generator.be2e0119117df44d7bc9.png",
-    "static/media/Resume.pdf": "/bryanjeremysmith/react-portfolio/static/media/Resume.2d9186cc3eb3e2349ae5.pdf",
-    "index.html": "/bryanjeremysmith/react-portfolio/index.html",
-    "main.e490a261.css.map": "/bryanjeremysmith/react-portfolio/static/css/main.e490a261.css.map",
-    "main.c05ad746.js.map": "/bryanjeremysmith/react-portfolio/static/js/main.c05ad746.js.map"
+    "main.css": "/react-portfolio/static/css/main.e490a261.css",
+    "main.js": "/react-portfolio/static/js/main.cd895f65.js",
+    "static/media/module1challenge.png": "/react-portfolio/static/media/module1challenge.55f3e49bb2dc886130db.png",
+    "static/media/work-day-scheduler.gif": "/react-portfolio/static/media/work-day-scheduler.5b3f62cdcc4cafa34102.gif",
+    "static/media/module2challenge.png": "/react-portfolio/static/media/module2challenge.b38adefcc2e77b4d541b.png",
+    "static/media/profile.png": "/react-portfolio/static/media/profile.ec21ad15109587f05cb2.png",
+    "static/media/coding-quiz.gif": "/react-portfolio/static/media/coding-quiz.f809ce631baf42e3f7af.gif",
+    "static/media/movies2watch.png": "/react-portfolio/static/media/movies2watch.6d9cbf380af10aefd290.png",
+    "static/media/boundlessbites.png": "/react-portfolio/static/media/boundlessbites.75c9f98f922864664fe6.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.cf25a1c620cc608e6e78.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.be2e0119117df44d7bc9.png",
+    "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.2d9186cc3eb3e2349ae5.pdf",
+    "index.html": "/react-portfolio/index.html",
+    "main.e490a261.css.map": "/react-portfolio/static/css/main.e490a261.css.map",
+    "main.cd895f65.js.map": "/react-portfolio/static/js/main.cd895f65.js.map"
   },
   "entrypoints": [
     "static/css/main.e490a261.css",
-    "static/js/main.c05ad746.js"
+    "static/js/main.cd895f65.js"
   ]
 }
