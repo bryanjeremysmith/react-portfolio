@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.948f7fe4.css",
-    "main.js": "/react-portfolio/static/js/main.2a7725aa.js",
+    "main.js": "/react-portfolio/static/js/main.b149297c.js",
     "static/media/module1challenge.png": "/react-portfolio/static/media/module1challenge.55f3e49bb2dc886130db.png",
     "static/media/work-day-scheduler.gif": "/react-portfolio/static/media/work-day-scheduler.5b3f62cdcc4cafa34102.gif",
     "static/media/module2challenge.png": "/react-portfolio/static/media/module2challenge.b38adefcc2e77b4d541b.png",
@@ -14,10 +14,10 @@
     "static/media/Resume.pdf": "/react-portfolio/static/media/Resume.2d9186cc3eb3e2349ae5.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.948f7fe4.css.map": "/react-portfolio/static/css/main.948f7fe4.css.map",
-    "main.2a7725aa.js.map": "/react-portfolio/static/js/main.2a7725aa.js.map"
+    "main.b149297c.js.map": "/react-portfolio/static/js/main.b149297c.js.map"
   },
   "entrypoints": [
     "static/css/main.948f7fe4.css",
-    "static/js/main.2a7725aa.js"
+    "static/js/main.b149297c.js"
   ]
 }
