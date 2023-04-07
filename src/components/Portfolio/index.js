@@ -4,6 +4,13 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
+			name: 'Movies2Watch',
+            description: 'a website to help research movies',
+            repo: "https://github.com/bryanjeremysmith/Movies2Watch",
+			deploy: "https://bryanjeremysmith.github.io/Movies2Watch/",
+			image: 'movies2watch.png',
+		},
+		{
 			name: 'Boundless Bites',
             description: 'a website to help research food',
             repo: "https://github.com/bryanjeremysmith/BoundlessBites",
@@ -58,6 +65,9 @@ function Portfolio() {
 					</li>
 					<li className="padding">
 						<Project projects={projects[4]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[5]}></Project>
 					</li>
 				</ul>
 			</div>
