@@ -25,6 +25,7 @@ function Project(props) {
 						<Card.Link href={repo} target="_blank" className="card-link">
 							{name} GitHub Repo
 						</Card.Link>
+						<br/>
 						<Card.Link href={deploy} target="_blank" className="card-link">
 							{name} Live Deployment
 						</Card.Link>
