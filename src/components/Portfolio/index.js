@@ -4,6 +4,13 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
+			name: 'Glazed & Confused',
+            description: 'a donut ordering website',
+            repo: "https://github.com/PMengler/glazed-and-confused",
+			deploy: "https://glazed-and-confused.herokuapp.com/",
+			image: 'gc-screenshot.jpg',
+		},
+		{
 			name: 'Movies2Watch',
             description: 'a website to help research movies',
             repo: "https://github.com/bryanjeremysmith/Movies2Watch",
@@ -68,6 +75,9 @@ function Portfolio() {
 					</li>
 					<li className="padding">
 						<Project projects={projects[5]}></Project>
+					</li>
+					<li className="padding">
+						<Project projects={projects[6]}></Project>
 					</li>
 				</ul>
 			</div>
